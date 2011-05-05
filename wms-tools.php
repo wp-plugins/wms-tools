@@ -4,7 +4,7 @@ Plugin Name: WMS Tools
 Plugin Script: wms-tools.php
 Plugin URI: http://marto.lazarov.org/plugins/wms-tools
 Description: Connect your wordpress blog to wms-tools.com
-Version: 1.0.3
+Version: 1.0.4
 Author: mlazarov
 Author URI: http://marto.lazarov.org
 Min WP Version: 2.7
@@ -12,7 +12,7 @@ Max WP Version: 3.1.2
 Update Server: http://marto.lazarov.org/plugins/wms-tools
 
 == Changelog ==
-= 1.0.3 =
+= 1.0.4 =
 * Bugfixes
 
 = 1.0.0 =

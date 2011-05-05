@@ -1,6 +1,6 @@
 === WMS Tools ===
 Tags: webmaster,seo,wms,tools,webmaster tools,
-Requires at least: 2.5
+Requires at least: 2.4
 Tested up to: 3.1.2
 Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2545483
