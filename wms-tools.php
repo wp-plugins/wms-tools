@@ -8,7 +8,7 @@ Version: 1.0.3
 Author: mlazarov
 Author URI: http://marto.lazarov.org
 Min WP Version: 2.7
-Max WP Version: 3.2
+Max WP Version: 3.1.2
 Update Server: http://marto.lazarov.org/plugins/wms-tools
 
 == Changelog ==
