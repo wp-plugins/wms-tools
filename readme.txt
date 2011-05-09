@@ -37,5 +37,5 @@ so I can update it more easly.
     
 == Screenshots ==
 
-1. user-code.png
+1. screenshot-1.png
 
