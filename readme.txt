@@ -19,7 +19,8 @@ WMS Tools plugin helps you to add wms-tools.com auth code
 
 1. Put the plugin folder into [wordpress_dir]/wp-content/plugins/
 2. Go into the WordPress admin interface and activate the plugin
-3. Optional: go to the options page and configure the plugin
+3. Go to http://wms-tools.com/keywords and get Your "User Code" number from the bottom of the page 
+4. Go to the options page and fill "User Code" number
 
 Before upgrade DEACTIVATE the plugin and then ACTIVATE and RECONFIGURE!
 

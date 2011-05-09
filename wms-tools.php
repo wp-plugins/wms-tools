@@ -4,7 +4,7 @@ Plugin Name: WMS Tools
 Plugin Script: wms-tools.php
 Plugin URI: http://marto.lazarov.org/plugins/wms-tools
 Description: Connect your wordpress blog to wms-tools.com
-Version: 1.0.6
+Version: 1.0.7
 Author: mlazarov
 Author URI: http://marto.lazarov.org
 Min WP Version: 2.7
@@ -12,6 +12,9 @@ Max WP Version: 3.1.2
 Update Server: http://marto.lazarov.org/plugins/wms-tools
 
 == Changelog ==
+
+= 1.0.6 =
+* Updated install instructions
 
 = 1.0.6 =
 * Added user code screenshot
@@ -116,7 +119,7 @@ kanalytics(<?=$this->options['user_code'];?>);
 						</div>
 					</form>
 				</div>
-				<img src="<?=$this->plugin_url;?>user-code.png" alt="User code"/>
+				<img src="<?=$this->plugin_url;?>screenshot-1.png" alt="User code"/>
 			</div>
 			<?php
 		}
