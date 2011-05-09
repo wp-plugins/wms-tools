@@ -4,7 +4,7 @@ Plugin Name: WMS Tools
 Plugin Script: wms-tools.php
 Plugin URI: http://marto.lazarov.org/plugins/wms-tools
 Description: Connect your wordpress blog to wms-tools.com
-Version: 1.0.4
+Version: 1.0.5
 Author: mlazarov
 Author URI: http://marto.lazarov.org
 Min WP Version: 2.7
@@ -12,6 +12,10 @@ Max WP Version: 3.1.2
 Update Server: http://marto.lazarov.org/plugins/wms-tools
 
 == Changelog ==
+
+= 1.0.5 =
+* Added user code screenshot
+
 = 1.0.4 =
 * Bugfixes
 
@@ -28,6 +32,10 @@ if (!class_exists('wms_tools')) {
 			
 		}
 		function __construct() {
+			
+			$this->plugin_url = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
+			
+			
 			$stored_options = get_option('wms_tools_options');
 			
 			$this->options = (array)(is_serialized($stored_options)) ? unserialize($stored_options) : $stored_options;
@@ -108,9 +116,7 @@ kanalytics(<?=$this->options['user_code'];?>);
 						</div>
 					</form>
 				</div>
-				
-				
-				
+				<img src="<?=$this->plugin_url;?>user-code.png" alt="User code"/>
 			</div>
 			<?php
 		}
