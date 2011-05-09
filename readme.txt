@@ -6,11 +6,11 @@ Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2545483
 Contributors: mlazarov, lazcorp
 
-WMS Tools is the easeast way to install wms-tools.com auth code
+WMS Tools is the easiest way to install wms-tools.com auth code
 
 == Description ==
 
-WMS Tools plugin helps you to add wms-tools.com auth code
+WMS Tools plugin helps you to add wms-tools.com auth code without need to change your wordpress theme code
 
 
 
